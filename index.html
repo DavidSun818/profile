@@ -14,8 +14,8 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>I am David</strong>, a software developer specializing in C#, ASP.NET,AngularJS/Vue.js.
-						 4+ years medical background(was an emergency staff before 2020)<br />
+					<h1><strong>I am David</strong>, a software Engineer with strong skills in C#.Net. 
+						4+ years medical background. Currently responsible for TMC's application code and designing.
 						</h1>
 				</div>
 			</header>
@@ -29,7 +29,7 @@
 							<h2>About me</h2>
 						</header>
 						<h4 style="color: brown;">I am passionate about developing software,
-							I enjoy turning complex problems into simple, beautiful and intuitive designs. ...</h4>
+							I enjoy turning complex problems into simple, beautiful and intuitive designs.</h4>
 						<div v-if="isLearnMore">
 							<div class="row">
 								<div class="col-6 col-12-xsmall">
@@ -67,28 +67,22 @@
 									<ul>
 										<li style="list-style:none">
 											<h5>
-												Full-stack Developer - <a href="https://www.tci-bio.com/zh-tw/intro">TCI CO., Ltd Taipei, Taiwan</a>&emsp;-&emsp;11/2020 ~ Present
+												C# Developer - <a href="https://www.technomedica.co.jp/t01/">Technomedica CO.JP, Ltd Taipei, Taiwan</a>&emsp;-&emsp;09/2021 ~ Present
 											</h5>
 										</li>
 										<li style="list-style:none">
-											<h5 style="color: brown;">Build QRcode - Product Tracing System</h5>
+											<h5 style="color: brown;">Responsible for anything software-related issue</h5>
 										</li>
-										<li><h5 style="color: brown;">Simplify TCI employees's work, bring extra value to the enterprise.</h5></li>
-										<li><h5 style="color: brown;">Establish Merchandise QRcode Platform including generating / decoding / binding.</h5></li>
-										<li><h5 style="color: brown;">Product History Pages Automatically generated Platform.</h5></li>
-										<li><h5 style="color: brown;">Responsible for application code and designing.</h5></li>
-										<li><h5 style="color: brown;">Maintaining and Develop TCI EIP System.</h5></li>
-									</ul>
-									<ul>
-										<li style="list-style:none">
-											<h5>
-												Full-stack Engineer - <a href="http://www.esunergy.com/">Sunergy Technology Taipei, Taiwan</a>&emsp;-&emsp;07/2020 ~ 11/2020
-											</h5>
-										</li>
-										<li><h5 style="color: brown;">Developed customized web application for clients.</h5></li>
-										<li><h5 style="color: brown;">Requirement analyzed and coding.</h5></li>
-										<li><h5 style="color: brown;">Maintaining and Modified existing program.</h5></li>
-										<li><h5 style="color: brown;">Deployed web-app to server.</h5></li>
+										<li><h5 style="color: brown;">Developing customized medical system for clients.</h5></li>
+										<li><h5 style="color: brown;">Maintaining and Modify the system program after sold.</h5></li>
+										<li><h5 style="color: brown;">Kiosk system for patient check-in.</h5></li>
+										<li><h5 style="color: brown;">AssistClient system for medical examiner check blood tube detail and finish their job.</h5></li>
+										<li><h5 style="color: brown;">Calling Infomation Screen including advertising display.</h5></li>
+										<li><h5 style="color: brown;">CTTS(Text To Speech) system.</h5></li>
+										<li><h5 style="color: brown;">Dashboard (Task, Employee management. Report showing and download, device remote control etc.).</h5></li>
+										<li><h5 style="color: brown;">Packet Program for Communicate between software and hardware.</h5></li>
+										<li><h5 style="color: brown;">Exchange data between Tmc server and His, Lis.</h5></li>
+										<li><h5 style="color: brown;">Server building and maintenance.</h5></li>
 									</ul>
 									
 								</div>
@@ -103,6 +97,40 @@
 					<section id="two">
 						<h2>Recent Work (All Independently Developed + Deployed )</h2>
 						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/09.jpg" class="image fit thumb"><img src="images/thumbs/09.jpg" alt="" /></a>
+								<h3>AssistClient System (For Medical Examiner)</h3>
+								<h3>WPF - C#</h3>
+								<p>
+									AssistClient System for is a very powerful application for medical examiner check blood examnation 
+									details, patient identity, send command to Robo device to prepare the blood-tubes
+									 and finish their job through application. There are multiple customized function and caculation which
+									 makes this app very Friendly for users. This app require abundant domain knowledge, communication and
+									  coordination process with hospital's expertisees to build.
+								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/07.jpg" class="image fit thumb"><img src="images/thumbs/07.jpg" alt="" /></a>
+								<h3>Kiosk Program</h3>
+								<h3>WPF - C#</h3>
+								<p>
+									Kisok System is build for Patient to get their ticket and wait for blood-drawed.
+									Technical detail : Patient can check-in with health insurance card or examination paper.
+									Once kiosk receive request, send data to the Server which I build & deploy previously, then the server
+									would send request to His/Lis in hospital, eventually get the check-in data back to Server > kiosk.
+									Finally Kiosk computer print the ticket to the patient.
+								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/08.jpg" class="image fit thumb"><img src="images/thumbs/08.jpg" alt="" /></a>
+								<h3>Calling Information Display Screen</h3>
+								<h3>Web - C#、Javascript、Vue.js</h3>
+								<p>
+									The Information Screen is for patient to clearly see the waiting situation in examine area, which
+									display the integrated data from server with RedisDb. Technical detail : Use Javascript frequently
+									request to our server, and check waiting QueueNo. and status, Finally modify the data and CSS (flicker). 
+								</p>
+							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 								<h3>TCI HR_Personnel Resume Platform (For Recruiting) </h3>
@@ -517,7 +545,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					
 					</ul>
 					<ul class="copyright">
-						<li>&copy; DavidSun 2021</li>
+						<li>&copy; DavidSun 2022</li>
 					</ul>
 				</div>
 			</footer>
